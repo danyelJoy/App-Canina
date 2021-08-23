@@ -1,0 +1,54 @@
+{
+    "servicios": [
+        {
+            "id": 1,
+            "nombre": "Corte y baño raza pequeña",
+            "precio": 80
+        },
+        {
+            "id": 2,
+            "nombre": "Corte y baño raza mediana",
+            "precio": 60
+        },
+        {
+            "id": 3,
+            "nombre": "Corte y baño raza grande",
+            "precio": 100
+        },
+        {
+            "id": 4,
+            "nombre": "Baño raza pequeña",
+            "precio": 100
+        },
+        {
+            "id": 5,
+            "nombre": "Baño raza mediana",
+            "precio": 60
+        },
+        {
+            "id": 6,
+            "nombre": "Baño raza grande",
+            "precio": 100
+        },
+        {
+            "id": 7,
+            "nombre": "Shampoo anti-pulgas",
+            "precio": 300
+        },
+        {
+            "id": 8,
+            "nombre": "Corte de uñas",
+            "precio": 400
+        },
+        {
+            "id": 9,
+            "nombre": "Cepillado dental",
+            "precio": 50
+        },
+        {
+            "id": 10,
+            "nombre" : "Medicado",
+            "precio": 150
+        }
+    ]
+}

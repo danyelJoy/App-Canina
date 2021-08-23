@@ -1,0 +1,35 @@
+body {
+    background-color: $crema;
+}
+
+.contenedor-estetica {
+    @include tablet {
+        height: 100vh;
+        @include grid(2, $separacion);
+    }
+    .imagen {
+        height: 30rem;
+        background-image: url(../img/corte.jpg);
+        background-size:cover ;
+        background-position: center center;
+
+        @include tablet{
+            height: auto;
+        }
+    }
+}
+
+.app {
+    width: 95%;
+    margin:  0 auto;
+    padding-top: $separacion / 2;
+    .seccion {
+        display: none;
+        margin-top: $separacion / 3;
+
+    }
+}
+
+.mostrar-seccion{
+    display: block!important;
+}
